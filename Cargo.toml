@@ -1,0 +1,13 @@
+[package]
+name = "playit-manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+console = "0.15.8"
+crypto = "0.5.1"
+futures = "0.3.30"
+home = "0.5.9"
+json = "0.12.4"
+reqwest = "0.12.5"
+tokio = { version = "1.15", features = ["full"] }
